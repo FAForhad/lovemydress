@@ -1,3 +1,8 @@
+body {
+    font-family: 'lmd-sans-regular';
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 0!important;
+}
 .site-header {
     display: flex;
     flex-direction: column;
@@ -29,6 +34,7 @@
     width: 165px;
     text-align: center;
     z-index: 20;
+    cursor: pointer;
 }
 .site-branding{
     display: flex;
@@ -53,4 +59,43 @@
 
 .fab, .far {
     font-weight: 400;
+}
+.btn-open, .dir-toggle {
+    display: none;
+}
+
+.search:not(body.search) {
+    width: 130px;
+    position: relative;
+    bottom: -30px;
+}
+
+.search:not(body.search) {
+    width: 130px;
+    position: relative;
+    bottom: -30px;
+}
+
+@media (max-width: 520px){
+    .btn-open {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    border: 0;
+    border-top: 2px solid #1d1e1f;
+    border-bottom: 2px solid #1d1e1f;
+    border-radius: 0;
+    outline: none;
+    background: none;
+    width: 35px;
+    height: 22px;
+    cursor: pointer;
+}
+}
+
+@media (max-width: 960px){
+.header-social{
+    display: none;
+}
 }
