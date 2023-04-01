@@ -1,3 +1,35 @@
+.site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -106px;
+    background: rgb(250,249,248);
+    z-index: 30;
+}
+.site-header a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #1d1e1f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'lmd-sans-regular';
+}
+.header-social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 165px;
+    text-align: center;
+    z-index: 20;
+}
 .site-branding{
     display: flex;
     flex-direction: row;
@@ -18,11 +50,7 @@
     display: block;
     width: 140px;
 }
-.site-header a {
-    font-size: 12px;
-    letter-spacing: 1px;
-    color: #1d1e1f;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'lmd-sans-regular';
+
+.fab, .far {
+    font-weight: 400;
 }
