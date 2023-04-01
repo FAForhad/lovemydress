@@ -1,7 +1,8 @@
 body {
     font-family: 'lmd-sans-regular';
     -webkit-font-smoothing: antialiased;
-    margin-bottom: 0!important;
+    margin: 0!important;
+padding: 0!important;
 }
 .site-header {
     display: flex;
@@ -95,9 +96,13 @@ body {
     width: 100%;
     justify-content: center;
     position: relative;
-    padding: 3px 20px 17px;
+    padding-top: 3px;
+    padding-bottom: 17px;
     z-index: 10;
     align-items: center;
+    font-family: 'lmd-sans-regular';
+    font-weight: 100;
+    font-size: small;
 }
 .menu-primary-container {
     width: 100%;
@@ -116,10 +121,90 @@ body {
     position: relative;
     z-index: 10;
     align-items: center;
+    cursor: pointer;
 }
 .main-menu ul li {
     margin: 0 20px;
+    font-family: 'lmd-sans-regular';
+    font-weight: 100;
 }
+
+main {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background: rgb(250,249,248);
+}
+
+.dir-home--header {
+    position: relative;
+}
+
+.dir-home--header .header-landscape {
+    max-height: 75vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dir-home--links {
+    color: rgb(250,249,248);
+    padding: 30px;
+    width: 50%;
+    max-width: 700px;
+    min-width: 500px;
+    position: absolute;
+    left: 60px;
+    bottom: 20%;
+}
+.dir-home--links h2 {
+    font-family: 'lmd-serif-regular' !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 62px !important;
+    margin: 0 0 0 -20px !important;
+    line-height: 1.1 !important;
+    text-align: left !important;
+}
+.dir-home--links h2 em {
+    font-family: 'lmd-serif-italic';
+    font-style: normal;
+}
+
+.dir-home--links h4 {
+    font-family: 'lmd-serif-regular' !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 25px !important;
+    line-height: 1.3 !important;
+    margin: 10px 0 20px !important;
+    text-align: left !important;
+}
+b, strong {
+    font-weight: bolder;
+}
+
+.search-choice .search-choice-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.search-choice .search-choice-inner div select, .search-choice .search-choice-inner.dir-home select {
+    background: #efeee9;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0;
+    border-right: 10px solid #efeee9;
+    padding: 10px 55px 10px 15px;
+    font-size: 13px;
+    font-family: 'lmd-sans-regular';
+    max-width: 100%;
+    width: 500px;
+}
+
 
 @media (max-width: 520px){
     .btn-open {
