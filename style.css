@@ -39,7 +39,7 @@ body {
 .site-branding{
     display: flex;
     flex-direction: row;
-    padding: 8px 30px;
+    padding: 8px 0px;
     flex-wrap: nowrap;
     align-items: flex-end;
     justify-content: space-between;
@@ -74,6 +74,51 @@ body {
     width: 130px;
     position: relative;
     bottom: -30px;
+}
+.search:not(body.search) span i {
+    display: block;
+    position: relative;
+    border-bottom: 0;
+    width: 80px;
+    height: 19px;
+    text-align: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #1d1e1f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'lmd-sans-regular';
+}
+
+.main-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    padding: 3px 20px 17px;
+    z-index: 10;
+    align-items: center;
+}
+.menu-primary-container {
+    width: 100%;
+}
+
+.menu-primary-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu .menu-primary-container ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+}
+.main-menu ul li {
+    margin: 0 20px;
 }
 
 @media (max-width: 520px){
