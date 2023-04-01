@@ -1,0 +1,28 @@
+.site-branding{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 30px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+.site-branding a img {
+    display: block;
+    width: 140px;
+    max-height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+.site-branding a {
+    display: block;
+    width: 140px;
+}
+.site-header a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #1d1e1f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'lmd-sans-regular';
+}
