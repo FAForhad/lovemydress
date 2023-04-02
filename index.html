@@ -49,7 +49,7 @@
             </li>
         </ul>
         <div class="site-branding justify-content-center">
-            <button type="button" class="btn-open clicker"></button>
+            <button type="button" onclick="openNavigation()" id="navclicker" class="btn-open clicker"></button>
             <div class="search" style="visibility:hidden;">
                 <span>Search</span>
             </div>
@@ -455,6 +455,75 @@
         </footer>
         <!-- footert end -->
     </main>
+
+    <div class="zeynep">
+        <div class="menu-mobile-container">
+            <ul id="menu-mobile-1" class="menu">
+                <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-802131 current_page_item menu-item-852860">
+                    <a href="https://www.lovemydress.net/" aria-current="page">Home</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852861"><a
+                        href="https://www.lovemydress.net/directory">Wedding Directory</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852863"><a
+                        href="https://www.lovemydress.net/blog">Latest Articles</a></li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852862"><a
+                        href="https://www.lovemydress.net/blog/category/real-weddings-to-inspire">Real Weddings</a></li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852871"><a
+                        href="https://www.lovemydress.net/blog/category/wedding-inspiration/fashion-beauty">Fashion
+                        &amp; Beauty</a></li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852865"><a
+                        href="https://www.lovemydress.net/blog/category/wedding-planning/wedding-readings-planning">Wedding
+                        Readings</a></li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-853328"><a
+                        href="https://www.lovemydress.net/blog/category/wedding-inspiration/styled-shoots">Editorials</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852866"><a
+                        href="https://www.lovemydress.net/blog/category/discussion-posts">Tips &amp; Advice</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852867"><a
+                        href="https://www.lovemydress.net/contact-us">Contact</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852868"><a
+                        href="https://www.lovemydress.net/about">About</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-853682"><a
+                        href="https://www.lovemydress.net/submissions">Submissions</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852869"><a
+                        href="https://www.lovemydress.net/advertising">Advertise Your Business</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <span>Search</span>
+        </div>
+
+        <div class="header-social">
+            <a href="https://instagram.com/lovemydress" target="_blank"><i class="fab fa-instagram"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCZGZfk-Fl9irBE4MVC8AHtw" target="_blank"><i class="fab fa-youtube"
+                    aria-hidden="true"></i></a>
+            <a href="https://pinterest.com/lovemydressblog" target="_blank"><i class="fab fa-pinterest-p"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/LoveMyDressBlog" target="_blank"><i class="fab fa-facebook-f"
+                    aria-hidden="true"></i></a>
+            <a href="https://twitter.com/lovemydressblog" target="_blank"><i class="fab fa-twitter"
+                    aria-hidden="true"></i></a>
+        </div>
+
+    </div>
+
 </body>
+
+<script>
+    let navclicker = document.getElementById("navclicker");
+    let zeynep = document.getElementById("zeynep");
+
+    function openNavigation() {
+        zeynep.style.display = "inline-block";
+    }
+
+    function closeFullImg() {
+        fullImgBox.style.display = "none";
+    }
+
+</script>
+
 
 </html>

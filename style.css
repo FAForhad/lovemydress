@@ -561,10 +561,34 @@ element.style {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
+.zeynep{
+    display: none;
+}
 
 @media (max-width: 960px){
     .main-menu, .featured-supplier .directory-footer-inner .dir-tile a:after, .featured-venue .directory-footer-inner .dir-tile a:after, .directory-footer-inner .dir-links ul a:before, .dir .cta .gform_legacy_markup_wrapper .gform_footer input[type="submit"]#gform_submit_button_6:before, .directory-footer-inner .dir-links ul a:after, .dir .cta .gform_legacy_markup_wrapper .gform_footer input[type="submit"]#gform_submit_button_6:after, .header-social, .search:not(body.search), .util{
     display: none;
+}
+
+.zeynep{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 80%;
+    height: 100vh;
+}
+
+.zeynep ul li {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    padding-left: 20px;
+    font-family: 'lmd-sans-regular';
+    font-style: normal;
+    -webkit-overflow-scrolling: touch;
 }
 }
 
@@ -675,16 +699,10 @@ max-height: 190px;
     object-fit: cover;
     display: block;
 }
-
-
-
-
-
-
-
 .show-posts-block {
     padding: 20px 0;
 }
+
 
 .section-header {
     padding: 0 15px;
