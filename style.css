@@ -23,8 +23,6 @@ padding: 0!important;
 }
 .header-social {
     display: flex;
-    margin: 0;
-    padding: 0;
     list-style: none;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -47,7 +45,6 @@ padding: 0!important;
     width: 100%;
 }
 .site-branding a img {
-    display: block;
     width: 140px;
     max-height: 100px;
     object-fit: contain;
@@ -147,42 +144,25 @@ main {
     object-fit: cover;
     object-position: center;
 }
-
+.dir-home--header .header-portrait {
+    display: none;
+}
 .dir-home--links {
     color: rgb(250,249,248);
     padding: 30px;
     width: 50%;
     max-width: 700px;
-    min-width: 500px;
     position: absolute;
     left: 60px;
-    bottom: 20%;
+    bottom: 15%;
 }
 .dir-home--links h2 {
-    font-family: 'lmd-serif-regular' !important;
-    font-style: normal !important;
-    font-weight: 300 !important;
-    font-size: 62px !important;
-    margin: 0 0 0 -20px !important;
-    line-height: 1.1 !important;
-    text-align: left !important;
-}
-.dir-home--links h2 em {
-    font-family: 'lmd-serif-italic';
-    font-style: normal;
+    font-family: 'lmd-serif-regular';
 }
 
 .dir-home--links h4 {
     font-family: 'lmd-serif-regular' !important;
-    font-style: normal !important;
-    font-weight: 300 !important;
-    font-size: 25px !important;
-    line-height: 1.3 !important;
     margin: 10px 0 20px !important;
-    text-align: left !important;
-}
-b, strong {
-    font-weight: bolder;
 }
 
 .search-choice .search-choice-inner {
@@ -216,11 +196,6 @@ b, strong {
 
 .advanced-filter-block h2 {
     font-family: 'lmd-serif-italic';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 62px;
-    margin: 0;
-    width: 600px;
     padding: 0 0 0 60px;
 }
 
@@ -235,13 +210,12 @@ b, strong {
     padding: 0;
 }
 
-.advanced-filter-block .archive-block {
+.archive-block {
     margin: 0 auto;
 }
-
-.advanced-filter-block .archive-post {
+.archive-post {
     position: relative;
-    padding: 25px 25px;
+    padding: 35px 25px;
     width: 25%;
     z-index: 2;
 }
@@ -255,7 +229,6 @@ b, strong {
     font-size: 12px;
     font-family: 'lmd-sans-regular';
     background: rgba(255,255,255,.8);
-    padding: 0px 10px 0px 10px;
     border-top: 2px solid #dcc8c6;
 }
 
@@ -276,20 +249,18 @@ b, strong {
     bottom: 25px;
     max-width: 90%;
 }
-.advanced-filter-block .archive-block {
-max-width: 90%;
+.archive-block {
     position: relative;
-    padding: 0 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     align-items: center;
     position: relative;
 }
 
 .advanced-filter-block .block-title { 
-      position: absolute;
+    position: absolute;
     bottom: 25px;
     max-width: 90%;
     margin-top: 0px;
@@ -318,7 +289,52 @@ max-width: 90%;
 }
 
 @media (max-width: 960px){
-.header-social{
+    .main-menu, .featured-supplier .directory-footer-inner .dir-tile a:after, .featured-venue .directory-footer-inner .dir-tile a:after, .directory-footer-inner .dir-links ul a:before, .dir .cta .gform_legacy_markup_wrapper .gform_footer input[type="submit"]#gform_submit_button_6:before, .directory-footer-inner .dir-links ul a:after, .dir .cta .gform_legacy_markup_wrapper .gform_footer input[type="submit"]#gform_submit_button_6:after, .header-social, .search:not(body.search), .util{
     display: none;
+}
+}
+
+@media (max-width: 520px){
+.dir-home--links {
+    color: rgb(250,249,248);
+    padding: 0 30px;
+    width: auto;
+    max-width: 100%;
+    left: 0;
+    top: 200px;;
+    
+}
+.search-choice .search-choice-inner div select, .search-choice .search-choice-inner.dir-home select {
+    width: 300px;
+}
+.dir-home--header .header-portrait {
+    display: block;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.dir-home--header .header-landscape {
+    display: none;
+}
+.advanced-filter-block .archive-block {
+width: 100%;
+    padding: 0;
+    margin: 10px auto 0;  
+      width: 100%;
+    flex-wrap: wrap;
+
+}
+.advanced-filter-block .archive-post img {
+    height: 350px;
+    padding: 0%;
+    margin: 0%;
+}
+.archive-post {
+    padding: 0 12px 15px;
+    width: 50%;
+}
+.archive-post img{
+max-height: 190px;
 }
 }
