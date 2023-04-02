@@ -506,6 +506,60 @@ element.style {
 }
 
 
+.site-footer {
+    background: #2d2e2f;
+    color: #efeee9;
+    padding: 30px;
+}
+.site-info {
+    margin: auto;
+    padding: 30px;
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-block {
+    padding: 20px 30px;
+}
+.site-info .nav-block img {
+    width: 140px;
+    height: auto;
+    filter: invert(1);
+}
+
+.nav-block .footer-social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.nav-block ul {
+    list-style: none;
+    font-size: 11px;
+    line-height: 1.9;
+    letter-spacing: 0.3px;
+}
+
+.nav-block .footer-social li {
+    width: 20px;
+    flex-grow: unset;
+    margin: 20px 20px 0 20px;
+}
+
+.footer-column {
+    flex-grow: 1;
+}
+
+.footer-column-last {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
 
 
 @media (max-width: 960px){
