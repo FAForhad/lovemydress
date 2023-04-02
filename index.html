@@ -180,7 +180,7 @@
         </div>
         <!-- blog end -->
         <!-- leatest feature start -->
-        <div class="show-posts-block px-24" style="background-color:#ffffff;">
+        <div class="show-posts-block lg:px-24" style="background-color:#ffffff;">
             <div class="block-wrapper-inner">
                 <div class="section-header">
                     <h2 style="color: #404040"></h2>
@@ -301,13 +301,13 @@
         <!-- Photographer start -->
         <section class="lg:flex py-20 text-white justify-evenly items-center" style="  background-color: #2d2e2f">
             <div class="py-5 ">
-                <img class="h-96 px-5 rounded"
+                <img class="h-96 px-5 py-5 rounded"
                     src="https://www.lovemydress.net/wp-content/uploads/2015/09/Paul-Joseph-Photography-weddings-Leeds-Yorkshire-1024x683.jpg"
                     alt="">
                 <h2 class="text-2xl py-1 px-5">Lorem ipsum dolor sit amet.</h2>
             </div>
             <div class="py-5">
-                <img class="h-96 px-5 rounded"
+                <img class="h-96 px-5 py-5 rounded"
                     src="https://www.lovemydress.net/wp-content/uploads/2015/09/Paul-Joseph-Photography-weddings-Leeds-Yorkshire-1024x683.jpg"
                     alt="">
                 <h2 class="text-2xl py-1 px-5">Lorem ipsum dolor sit amet.</h2>
@@ -320,7 +320,7 @@
 
         <!-- Photographer end -->
         <!-- leatest feature start -->
-        <div class="show-posts-block px-24" style="background-color:#ffffff;">
+        <div class="show-posts-block lg:px-24" style="background-color:#ffffff;">
             <div class="block-wrapper-inner">
                 <div class="section-header">
                     <h2 style="color: #404040"></h2>
@@ -456,38 +456,26 @@
         <!-- footert end -->
     </main>
 
-    <div class="zeynep">
+    <div id="mobileMenu">
         <div class="menu-mobile-container">
             <ul id="menu-mobile-1" class="menu">
-                <li
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-802131 current_page_item menu-item-852860">
-                    <a href="https://www.lovemydress.net/" aria-current="page">Home</a>
+                <li class="flex justify-between">
+                    <a></a>
+                    <button class="text-5xl" onclick="closeNavigation()">x</button>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852861"><a
-                        href="https://www.lovemydress.net/directory">Wedding Directory</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852863"><a
-                        href="https://www.lovemydress.net/blog">Latest Articles</a></li>
-                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852862"><a
-                        href="https://www.lovemydress.net/blog/category/real-weddings-to-inspire">Real Weddings</a></li>
-                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852871"><a
-                        href="https://www.lovemydress.net/blog/category/wedding-inspiration/fashion-beauty">Fashion
-                        &amp; Beauty</a></li>
-                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852865"><a
-                        href="https://www.lovemydress.net/blog/category/wedding-planning/wedding-readings-planning">Wedding
-                        Readings</a></li>
-                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-853328"><a
-                        href="https://www.lovemydress.net/blog/category/wedding-inspiration/styled-shoots">Editorials</a>
+                <li>
+                    <a>Home</a>
                 </li>
-                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-852866"><a
-                        href="https://www.lovemydress.net/blog/category/discussion-posts">Tips &amp; Advice</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852867"><a
-                        href="https://www.lovemydress.net/contact-us">Contact</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852868"><a
-                        href="https://www.lovemydress.net/about">About</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-853682"><a
-                        href="https://www.lovemydress.net/submissions">Submissions</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852869"><a
-                        href="https://www.lovemydress.net/advertising">Advertise Your Business</a></li>
+                <li>
+                    <a>Home</a>
+                </li>
+                <li>
+                    <a>Home</a>
+                </li>
+                <li>
+                    <a>Home</a>
+                </li>
+
             </ul>
         </div>
         <div class="search">
@@ -512,15 +500,14 @@
 </body>
 
 <script>
-    let navclicker = document.getElementById("navclicker");
-    let zeynep = document.getElementById("zeynep");
+    let mobileMenu = document.getElementById("mobileMenu");
 
     function openNavigation() {
-        zeynep.style.display = "inline-block";
+        mobileMenu.style.display = "inline-block";
     }
 
-    function closeFullImg() {
-        fullImgBox.style.display = "none";
+    function closeNavigation() {
+        mobileMenu.style.display = "none";
     }
 
 </script>
