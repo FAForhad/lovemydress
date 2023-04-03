@@ -711,5 +711,8 @@ border-radius: 5px;
     padding: 0;
 }
 
+.nav-block .footer-social {
+    justify-content: center;
+}
 
 }
