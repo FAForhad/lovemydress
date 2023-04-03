@@ -209,7 +209,6 @@ main {
     font-size: 12px;
     font-family: 'lmd-sans-regular';
     background: rgba(255,255,255,.8);
-    border-top: 2px solid #dcc8c6;
 }
 .archive-post a :hover{
     background-color: #dcc8c6;
@@ -700,4 +699,17 @@ border-radius: 5px;
 .advanced-filter-block h4{
     margin: 0 0 10px 15px;
 }
+
+.site-info .nav-block img {
+    width: 40%;
+    height: auto;
+    filter: invert(1);
+    margin: auto;
+}
+
+.site-info{
+    padding: 0;
+}
+
+
 }
