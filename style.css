@@ -238,6 +238,7 @@ main {
     max-height: 550px;
     object-fit: cover;
     display: block;
+    border-radius: 5px;
 }
 
 .advanced-filter-block .block-title {
@@ -371,6 +372,7 @@ main {
 .archive-post a {
     display: block;
     position: relative;
+    border-radius: 4px;
 }
 
 element.style {
@@ -428,6 +430,7 @@ element.style {
 
 .home-showcase .post-thumbnail {
     width: 65%;
+    border-radius: 90px;
 }
 
 
@@ -661,6 +664,7 @@ width: 100%;
 }
 .archive-post img{
 max-height: 190px;
+border-radius: 5px;
 }
 
 .post-header.home-lead {
