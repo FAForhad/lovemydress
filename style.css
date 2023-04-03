@@ -756,5 +756,13 @@ a.related-cat{
     line-height: 1.1;
 }
 
+.advanced-filter-block h2 {
+    font-family: 'lmd-serif-italic';
+    padding: 0 0 0 10px;
+}
+.advanced-filter-block h4{
+    margin: 0 0 10px 15px;
+}
+
 
 }
