@@ -555,6 +555,14 @@ element.style {
 }
 }
 @media (max-width: 520px){
+
+    .site-branding{
+        padding: 0;
+    }
+
+    .site-branding a img{
+        padding: 15px;
+    }
 .dir-home--links {
     color: rgb(250,249,248);
     padding: 0 30px;
