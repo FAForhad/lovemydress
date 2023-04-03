@@ -713,9 +713,6 @@ border-radius: 5px;
     z-index: 5;
 }
 
-a.related-cat{
-    display: none;
-}
 .home .archive-post h3 {
     font-family: 'lmd-serif-regular';
     margin: 0;
