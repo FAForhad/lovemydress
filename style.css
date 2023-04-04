@@ -305,7 +305,7 @@ element.style {
     font-size: 12px;
 }
 .home-showcase-inner {
-    max-width: 1400px;
+    max-width: 1200px;
     display: flex;
     margin: auto;
     flex-direction: row;
@@ -353,7 +353,6 @@ element.style {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 60px 0 0px;
 }
 .fw-image img {
     width: 100%;
