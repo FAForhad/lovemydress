@@ -7,7 +7,7 @@
     background: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-background-image: url(https://img.freepik.com/free-psd/mockup-disposable-coffee-cup_53876-65837.jpg?w=1380&t=st=1680614425~exp=1680615025~hmac=5c1a09300861c2cda75963fc3e28fcce5461750fc669d85614ff61f3b4095f98);
+background-image: url(https://i.ibb.co/tP136TQ/mockup-disposable-coffee-cup-53876-65837.jpg);
 }
 
 main {
@@ -264,7 +264,6 @@ main {
 .archive-post a {
     display: block;
     position: relative;
-    border-radius: 4px;
 }
 element.style {
     color: #404040;
@@ -496,7 +495,7 @@ width: 100%;
     margin: 0%;
 }
 .archive-post {
-    padding: 0 12px 15px;
+    padding: 12px 12px 15px;
     width: 50%;
 }
 .archive-post img{
@@ -509,7 +508,6 @@ border-radius: 5px;
 .post-header.home-lead .header-inner {
     width: calc(100% - 40px);
     margin-right: 0;
-    background: #fff;
     z-index: 20;
     padding: 20px 20px 60px;
 }
@@ -599,7 +597,6 @@ border-radius: 5px;
 .site-info{
     padding: 0;
 }
-
 .nav-block .footer-social {
     justify-content: center;
 }
