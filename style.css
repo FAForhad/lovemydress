@@ -25,7 +25,7 @@ main {
     padding-bottom: 17px;
     z-index: 10;
     align-items: center;
-    font-family: 'lmd-sans-regular';
+
     font-weight: 100;
     font-size: small;
 }
@@ -48,7 +48,7 @@ main {
 }
 .main-menu ul li {
     margin: 0 20px;
-    font-family: 'lmd-sans-regular';
+
     font-weight: 100;
 }
 .dir-home--header {
@@ -76,7 +76,6 @@ main {
 
 }
 .dir-home--links h4 {
-    font-family: 'lmd-serif-regular' !important;
     margin: 10px 0 20px !important;
 }
 .search-choice .search-choice-inner {
@@ -95,7 +94,6 @@ main {
     border-right: 10px solid #efeee9;
     padding: 10px 55px 10px 15px;
     font-size: 13px;
-    font-family: 'lmd-sans-regular';
     max-width: 100%;
     width: 500px;
 }
@@ -106,7 +104,7 @@ main {
     box-sizing: inherit;
 }
 .advanced-filter-block h2 {
-    font-family: 'lmd-serif-italic';
+
     padding: 0 0 0 60px;
 }
 .advanced-filter-block h4 {
@@ -121,7 +119,7 @@ main {
 }
 .archive-post {
     position: relative;
-    padding: 35px 25px;
+    padding: 35px 0px 35px 0px;
     width: 25%;
     z-index: 2;
 }
@@ -133,7 +131,7 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    font-family: 'lmd-sans-regular';
+
     background: rgba(255,255,255,.8);
 }
 .archive-post a :hover{
@@ -158,7 +156,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    width: 96%;
     align-items: center;
     position: relative;
 }
@@ -210,7 +208,7 @@ main {
     right: 20px;
 }
 .page-header .header-inner .entry-meta {
-    font-family: 'lmd-serif-italic';
+
     color: #000;
     font-size: 14px;
     margin-top: 10px;
@@ -285,17 +283,16 @@ element.style {
     border-bottom: none;
 }
 .related-cat {
-    font-family: 'lmd-sans-regular';
     color: #000000;
     display: block;
     position: relative;
     padding: 15px 10px;
-    margin-top: -48px;
+    margin-top: -64px;
     text-transform: uppercase;
     text-decoration: none;
 }
 .archive-post h5, .single-post .site-main .show-posts-block .archive-post h5 {
-    font-family: 'lmd-sans-regular';
+
     font-weight: normal;
     text-transform: uppercase;
     margin: 0;
@@ -318,7 +315,6 @@ element.style {
 .home-showcase-text {
     width: calc(35% + 150px);
     margin-left: -180px;
-    background: rgb(250,249,248);
     position: relative;
     padding: 40px 60px;
     bottom: -40px;
@@ -327,7 +323,6 @@ element.style {
 .home-showcase-text h2, .single-post .site-main .home-showcase-text h2 {
     margin: auto;
     font-weight: normal;
-    font-family: 'lmd-serif-italic';
     font-size: 32px;
     line-height: 1;
 }
@@ -375,7 +370,7 @@ element.style {
     
 }
 .fw-image h3 {
-    font-family: 'lmd-serif';
+
     font-weight: normal;
     font-size: 30px;
     letter-spacing: 0.6px;
@@ -408,7 +403,7 @@ element.style {
     list-style: none;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 .footer-social li {
     width: 20px;
@@ -439,7 +434,7 @@ element.style {
     padding: 20px;
     margin: 0;
     padding-left: 20px;
-    font-family: 'lmd-sans-regular';
+
     font-style: normal;
     -webkit-overflow-scrolling: touch;
 }
@@ -560,7 +555,6 @@ border-radius: 5px;
 .home-showcase-text {
     width: 89%;
     margin-left: 0;
-    background: rgb(250,249,248);
     position: relative;
     padding: 10px 50px;
     bottom: 0;
@@ -580,7 +574,7 @@ border-radius: 5px;
     line-height: 1.1;
 }
 .advanced-filter-block h2 {
-    font-family: 'lmd-serif-italic';
+
     padding: 0 0 0 10px;
 }
 .advanced-filter-block h4{
@@ -599,6 +593,9 @@ border-radius: 5px;
 }
 .nav-block .footer-social {
     justify-content: center;
+}
+.related-cat{
+    margin-top: -48px;
 }
 
 }
