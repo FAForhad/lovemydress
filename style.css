@@ -339,6 +339,7 @@ element.style {
     height: 100%;
     background: #efeee9;
     z-index: -1;
+    border-radius: 5px;
 }
 .fw-image {
     display: flex;
