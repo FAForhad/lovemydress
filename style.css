@@ -492,10 +492,10 @@ width: 100%;
 }
 .archive-post {
     padding: 12px 12px 15px;
-    width: 50%;
+    width: 91%;
 }
 .archive-post img{
-max-height: 190px;
+max-height: 350px;
 border-radius: 5px;
 }
 .post-header.home-lead {
