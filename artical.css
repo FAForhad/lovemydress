@@ -8,8 +8,7 @@
     background-repeat: no-repeat;
     background-color: #0c1a14;
 }
-
-main {
+.blogs {
 	position: relative;
 	left: 50%;
 	transform: translate(-50%, 0);
@@ -129,10 +128,6 @@ section p {
 
 @media only screen and (min-width: 667px) {
     /* 667px */
-	article p {
-		column-count: 2;
-		column-gap: 42px;
-	}
 	
 }
 
@@ -141,7 +136,7 @@ section p {
 
 @media only screen and (min-width: 768px) {
     /* 768 */
-	main {
+	.blogs {
 		padding: 0 40px;
 	}
 	h1 {
