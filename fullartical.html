@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fullartical.css">
+    <link rel="stylesheet" href="./MobileMenu/mobilemenu.css">
+    <link rel="stylesheet" href="./Footer/Footer.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/6f3268409a.js" crossorigin="anonymous"></script>
     <script>
@@ -29,7 +31,7 @@
         <div class=" text-gray-900 container mx-auto">
             <div class="px-5 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div class="relative flex items-center justify-between">
-                    <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+                    <a href="index.html" aria-label="Company" title="Company" class="inline-flex items-center">
                         <span class="ml-2 text-3xl lg:my-0 my-2 font-extrabold tracking-wide text-gray-900 ">
                             Company
                         </span>
@@ -42,9 +44,9 @@
                             </a>
                         </li>
                         <li class="px-6">
-                            <a href="/" aria-label="Our product" title="Our product"
+                            <a href="artical.html" aria-label="Our product" title="Our product"
                                 class="text-md font-bold tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400">
-                                Product
+                                Artical
                             </a>
                         </li>
                         <li class="px-6">
@@ -118,25 +120,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- footert start -->
     <footer id="colophon" class="site-footer ">
         <div class="site-info container mx-auto">
@@ -181,21 +164,25 @@
     <!-- mobile nav menu start -->
     <div id="mobileMenu">
         <div class="menu-mobile-container">
-            <ul id="menu-mobile-1" class="menu">
-                <li class="flex justify-between">
-                    <a></a>
-                    <button class="text-4xl mx-2 mb-2" onclick="closeNavigation()">x</button>
+            <ul id="menu-mobile-1" class="menu ml-2">
+                <li class="flex justify-between border-b-2">
+                    <a class="m-0 p-0 font-extrabold text-3xl">Company</a>
+                    <button class="text-2xl mx-2 " onclick="closeNavigation()"><i
+                            class="fa-solid fa-xmark"></i></button>
                 </li>
-                <li>
+                <li class="font-bold">
+                    <a> Company</a>
+                </li>
+                <li class="font-bold">
+                    <a>Artical</a>
+                </li>
+                <li class="font-bold">
+                    <a>Product</a>
+                </li>
+                <li class="font-bold">
                     <a>Home</a>
                 </li>
-                <li>
-                    <a>Home</a>
-                </li>
-                <li>
-                    <a>Home</a>
-                </li>
-                <li>
+                <li class="font-bold">
                     <a>Home</a>
                 </li>
 
