@@ -3,13 +3,6 @@
     max-width: 1200px !important;
 }
 
-.banner{
-    background: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-background-image: url(https://i.ibb.co/tP136TQ/mockup-disposable-coffee-cup-53876-65837.jpg);
-}
-
 main {
     display: block;
     width: 100%;
