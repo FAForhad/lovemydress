@@ -95,108 +95,161 @@
         </div>
     </header>
     <!-- header end -->
+    <div class=" container mx-auto px-4 lg:px-8 gap-5">
+        <div class=" w-full rounded-sm overflow-hidden shadow-lg mx-auto my-8">
+            <div class="mx-8 my-4 ">
+                <div x-data="{ open: false }">
+                    <div class="font-medium text-base text-gray-darker mb-4">Country:
+                        Bangladesh</div>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        League:
+                        Premier League
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Date / Time:
+                        14/04/2023 10:15:00
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Home Team:
+                        Abahani
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Away Team:
+                        Rahmatgonj MFS
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Prediction:
+                        Please select a bet type
+                    </p>
+                    <div x-show="open" @click.outside="open = false"
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 translate-y-0"
+                        x-transition:enter-end="opacity-100 translate-y-0"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 translate-y-10"
+                        x-transition:leave-end="opacity-0 translate-y-0" class="w-2/3 bg-white">
+                        <p class="font-normal text-gray-dark text-sm mb-2">Home Team Last 5 Fixtures Form:
+                            80%</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Away Team Last 5 Fixtures Form:
+                            33%</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Home Team Form:
+                            DWWDWDWWLWW</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Away Team Form:
+                            DLLWDLLWDLD</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2"> No. of Time Home Team Played:
+                            Home: 5, Away: 6</p>
 
+                    </div>
+                    <div @click="open = ! open" class=" w-2/3 rounded">
+                        <h4 class="font-medium text-sm text-blue-500">Read more</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" w-full rounded-sm overflow-hidden shadow-lg mx-auto my-8">
+            <div class="mx-8 my-4 ">
+                <div x-data="{ open: false }">
+                    <div class="font-medium text-base text-gray-darker mb-4">Country:
+                        Bangladesh</div>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        League:
+                        Premier League
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Date / Time:
+                        14/04/2023 10:15:00
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Home Team:
+                        Abahani
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Away Team:
+                        Rahmatgonj MFS
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Prediction:
+                        Please select a bet type
+                    </p>
+                    <div x-show="open" @click.outside="open = false"
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 translate-y-0"
+                        x-transition:enter-end="opacity-100 translate-y-0"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 translate-y-10"
+                        x-transition:leave-end="opacity-0 translate-y-0" class="w-2/3 bg-white">
+                        <p class="font-normal text-gray-dark text-sm mb-2">Home Team Last 5 Fixtures Form:
+                            80%</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Away Team Last 5 Fixtures Form:
+                            33%</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Home Team Form:
+                            DWWDWDWWLWW</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Away Team Form:
+                            DLLWDLLWDLD</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2"> No. of Time Home Team Played:
+                            Home: 5, Away: 6</p>
 
-    <!-- businesses page start -->
-    <div class="container mx-auto my-8 lg:my-20">
-        <ul class="hover:bg-green-50 mx-2 lg:mx-0 py-4 rounded">
-            <li class="lg:flex items-center justify-between">
-                <div class="flex lg:items-center">
-                    <p class="font-bold mx-4 lg:mx-8 lg:pt-0 pt-1">1</p>
-                    <img class="lg:w-16 lg:h-16 w-20 h-20 rounded mr-3 lg:mr-8" src="/img/blog_dress (6).jpg" alt="">
-                    <div>
-                        <h1 class="font-bold text-lg">Bliss Pharmacy</h1>
-                        <h3 class="font-semibold">Beauty Salons</h3>
-                        <h3 class="text-justify mr-4">150 Marylebone Rd, Camden Town, London, NW1 5PN</h3>
+                    </div>
+                    <div @click="open = ! open" class=" w-2/3 rounded">
+                        <h4 class="font-medium text-sm text-blue-500">Read more</h4>
                     </div>
                 </div>
-                <h3 class="lg:ml-0 ml-28 my-2 "><i class="fa-solid fa-phone ml-6 lg:ml-4 mr-2 lg:mr-4"></i>07306 169
-                    573</h3>
-                <a href="/businessDetails.html"
-                    class="inline-flex hover:bg-black hover:text-white border lg:ml-0 ml-36 mr-4 border-gray-500 items-center justify-center h-10 px-4 font-medium tracking-wide transition rounded-full">
-                    Show details
-                </a>
-            </li>
-        </ul>
-        <ul class="hover:bg-green-50 mx-2 lg:mx-0 py-4 rounded">
-            <li class="lg:flex items-center justify-between">
-                <div class="flex lg:items-center">
-                    <p class="font-bold mx-4 lg:mx-8 lg:pt-0 pt-1">2</p>
-                    <img class="lg:w-16 lg:h-16 w-20 h-20 rounded mr-3 lg:mr-8" src="/img/blog_dress (6).jpg" alt="">
-                    <div>
-                        <h1 class="font-bold text-lg">Bliss Pharmacy</h1>
-                        <h3 class="font-semibold">Beauty Salons</h3>
-                        <h3 class="text-justify mr-4">150 Marylebone Rd, Camden Town, London, NW1 5PN</h3>
+            </div>
+        </div>
+        <div class=" w-full rounded-sm overflow-hidden shadow-lg mx-auto my-8">
+            <div class="mx-8 my-4 ">
+                <div x-data="{ open: false }">
+                    <div class="font-medium text-base text-gray-darker mb-4">Country:
+                        Bangladesh</div>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        League:
+                        Premier League
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Date / Time:
+                        14/04/2023 10:15:00
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Home Team:
+                        Abahani
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Away Team:
+                        Rahmatgonj MFS
+                    </p>
+                    <p class="font-normal text-gray-dark text-sm mb-2">
+                        Prediction:
+                        Please select a bet type
+                    </p>
+                    <div x-show="open" @click.outside="open = false"
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 translate-y-0"
+                        x-transition:enter-end="opacity-100 translate-y-0"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 translate-y-10"
+                        x-transition:leave-end="opacity-0 translate-y-0" class="w-2/3 bg-white">
+                        <p class="font-normal text-gray-dark text-sm mb-2">Home Team Last 5 Fixtures Form:
+                            80%</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Away Team Last 5 Fixtures Form:
+                            33%</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Home Team Form:
+                            DWWDWDWWLWW</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2">Away Team Form:
+                            DLLWDLLWDLD</p>
+                        <p class="font-normal text-gray-dark text-sm mb-2"> No. of Time Home Team Played:
+                            Home: 5, Away: 6</p>
+
+                    </div>
+                    <div @click="open = ! open" class=" w-2/3 rounded">
+                        <h4 class="font-medium text-sm text-blue-500">Read more</h4>
                     </div>
                 </div>
-                <h3 class="lg:ml-0 ml-28 my-2 "><i class="fa-solid fa-phone ml-6 lg:ml-4 mr-2 lg:mr-4"></i>07306 169
-                    573</h3>
-                <a href="/businessDetails.html"
-                    class="inline-flex hover:bg-black hover:text-white border lg:ml-0 ml-36 mr-4 border-gray-500 items-center justify-center h-10 px-4 font-medium tracking-wide transition rounded-full">
-                    Show details
-                </a>
-            </li>
-        </ul>
-        <ul class="hover:bg-green-50 mx-2 lg:mx-0 py-4 rounded">
-            <li class="lg:flex items-center justify-between">
-                <div class="flex lg:items-center">
-                    <p class="font-bold mx-4 lg:mx-8 lg:pt-0 pt-1">3</p>
-                    <img class="lg:w-16 lg:h-16 w-20 h-20 rounded mr-3 lg:mr-8" src="/img/blog_dress (6).jpg" alt="">
-                    <div>
-                        <h1 class="font-bold text-lg">Bliss Pharmacy</h1>
-                        <h3 class="font-semibold">Beauty Salons</h3>
-                        <h3 class="text-justify mr-4">150 Marylebone Rd, Camden Town, London, NW1 5PN</h3>
-                    </div>
-                </div>
-                <h3 class="lg:ml-0 ml-28 my-2 "><i class="fa-solid fa-phone ml-6 lg:ml-4 mr-2 lg:mr-4"></i>07306 169
-                    573</h3>
-                <a href="/businessDetails.html"
-                    class="inline-flex hover:bg-black hover:text-white border lg:ml-0 ml-36 mr-4 border-gray-500 items-center justify-center h-10 px-4 font-medium tracking-wide transition rounded-full">
-                    Show details
-                </a>
-            </li>
-        </ul>
-        <ul class="hover:bg-green-50 mx-2 lg:mx-0 py-4 rounded">
-            <li class="lg:flex items-center justify-between">
-                <div class="flex lg:items-center">
-                    <p class="font-bold mx-4 lg:mx-8 lg:pt-0 pt-1">4</p>
-                    <img class="lg:w-16 lg:h-16 w-20 h-20 rounded mr-3 lg:mr-8" src="/img/blog_dress (6).jpg" alt="">
-                    <div>
-                        <h1 class="font-bold text-lg">Bliss Pharmacy</h1>
-                        <h3 class="font-semibold">Beauty Salons</h3>
-                        <h3 class="text-justify mr-4">150 Marylebone Rd, Camden Town, London, NW1 5PN</h3>
-                    </div>
-                </div>
-                <h3 class="lg:ml-0 ml-28 my-2 "><i class="fa-solid fa-phone ml-6 lg:ml-4 mr-2 lg:mr-4"></i>07306 169
-                    573</h3>
-                <a href="/businessDetails.html"
-                    class="inline-flex hover:bg-black hover:text-white border lg:ml-0 ml-36 mr-4 border-gray-500 items-center justify-center h-10 px-4 font-medium tracking-wide transition rounded-full">
-                    Show details
-                </a>
-            </li>
-        </ul>
-        <ul class="hover:bg-green-50 mx-2 lg:mx-0 py-4 rounded">
-            <li class="lg:flex items-center justify-between">
-                <div class="flex lg:items-center">
-                    <p class="font-bold mx-4 lg:mx-8 lg:pt-0 pt-1">5</p>
-                    <img class="lg:w-16 lg:h-16 w-20 h-20 rounded mr-3 lg:mr-8" src="/img/blog_dress (6).jpg" alt="">
-                    <div>
-                        <h1 class="font-bold text-lg">Bliss Pharmacy</h1>
-                        <h3 class="font-semibold">Beauty Salons</h3>
-                        <h3 class="text-justify mr-4">150 Marylebone Rd, Camden Town, London, NW1 5PN</h3>
-                    </div>
-                </div>
-                <h3 class="lg:ml-0 ml-28 my-2 "><i class="fa-solid fa-phone ml-6 lg:ml-4 mr-2 lg:mr-4"></i>07306 169
-                    573</h3>
-                <a href="/businessDetails.html"
-                    class="inline-flex hover:bg-black hover:text-white border lg:ml-0 ml-36 mr-4 border-gray-500 items-center justify-center h-10 px-4 font-medium tracking-wide transition rounded-full">
-                    Show details
-                </a>
-            </li>
-        </ul>
+            </div>
+        </div>
 
     </div>
-    <!-- businesses page end -->
+    </div>
+
 
     <!-- footert start -->
     <footer id="colophon" class="site-footer ">
@@ -283,5 +336,6 @@
     }
 
 </script>
+<script src="//unpkg.com/alpinejs" defer></script>
 
 </html>
