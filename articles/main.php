@@ -8,7 +8,7 @@
 }
  </style>
     <!-- banner start -->
-    <div  class="box py-10 lg:py-24" >
+    <div  class="box bg-lime-100 py-10 lg:py-24" >
         <section class="container mx-auto my-5 px-4 lg:px-10">
             <div class="">
                 <h1 class="my-4 text-3xl lg:text-4xl text-center font-semibold my-5"><?php echo $dm['title']?></h1>

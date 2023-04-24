@@ -2,13 +2,13 @@
   $.fn.article = function (options) {
     let colorArr = [
       "#8dd6c1",
-      "#ECF9FF",
-      "#FFFBEB",
+      "#f590bf",
+      "#f7dd74",
       "#FFE7CC",
       "#F8CBA6",
-      "#E3DFFD",
-      "#C3F8FF",
-      "FFBED8",
+      "#b6abff",
+      "#b3f6ff",
+      "#ffb0d0",
     ];
     let randomColor = colorArr[Math.floor(Math.random() * colorArr.length)];
 
