@@ -1,0 +1,130 @@
+.container{
+    max-width: 1200px !important;
+}
+
+
+.blogs {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	/*max-width: 1280px;*/
+	padding: 0 18px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content:center;	
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	overflow: hidden;
+}
+article {
+font-weight: 500;
+}
+
+section .intro {
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+p strong{
+	font-size: 20px;
+	font-weight: bold;
+}
+p{
+	padding:10px;
+}
+
+
+
+/*--------------------------
+
+     Media Queries 
+
+--------------------------*/
+/*    Mobile    */
+
+@media only screen and (min-width: 320px) {
+    /* 320px */
+	h1 {
+		font-size: 42px;
+		line-height: 44px;
+	}
+	.h1-divider {
+		width: 222px;
+		height: 19px;
+	}
+	.placeHolder_img {
+		height: 320px;
+		margin: 0 0 50px 0;
+	}
+
+}
+
+
+@media only screen and (min-width: 667px) {
+    /* 667px */
+	
+}
+
+
+/*Tablet*/
+
+@media only screen and (min-width: 768px) {
+    /* 768 */
+	.blogs {
+		padding: 0 40px;
+	}
+	h1 {
+		font-size: 53.1px;
+		line-height: 0.98;
+		letter-spacing: 1.1px;
+		margin-bottom: 20px;
+	}
+	.h1-divider {
+		width: 339px;
+		height: 24px;
+		margin-bottom: 53px;
+	}
+	article p {
+		margin-bottom: 10px;
+	}
+}
+
+/*    Desktop    */
+
+@media only screen and (min-width: 1200px) {
+    /* 1024 */
+	section {
+		width: 1150px;
+	}
+	h1 {
+		font-size: 66.4px;
+		line-height: 0.95;
+		letter-spacing: 1.4px;
+		margin-bottom: 30px;
+	}
+	.h1-divider {
+		width: 486px;
+		margin-bottom: 38px;
+	}
+	
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+    /* 1440 */
+	section{
+		max-width: 1150px;
+	}
+	h1 {
+		font-size: 72px;
+		line-height: 0.98;
+	}
+	.h1-divider {
+		width: 480px;
+		margin-bottom: 45px;
+	}
+}
