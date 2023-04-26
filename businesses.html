@@ -107,27 +107,47 @@
             accusamus facilis architecto explicabo modi dolor et quidem magni adipisci voluptates aliquid eum
             quaerat praesentium dignissimos sapiente minima, inventore fugiat fuga!</p>
         <ul class="hover:bg-pink-50 mx-2 lg:mx-0 px-6 lg:py-2 py-0 rounded">
-            <a href="businessDetails.html" class="lg:flex items-center justify-between">
-                <div class="lg:flex lg:items-center w-full">
-                    <img class="lg:w-40 lg:h-40 my-4 rounded mr-3 lg:mr-8" src="/img/blog_dress (6).jpg" alt="">
-                    <div>
+            <a class="lg:flex items-center justify-between my-4">
+                <div class="lg:flex w-full">
+                    <div class="mr-3 lg:mr-8 lg:h-40 lg:w-40  rounded-md">
+                        <img class="object-contain lg:h-40 lg:w-40 my-2 rounded-md " src="/img/blog_dress (12).jpg"
+                            alt="">
+                    </div>
+                    <div class="w-full">
                         <h1 class="font-bold text-lg my-0">Lorem, ipsum dolor.</h1>
                         <h3 class="font-semibold">Lorem, ipsum.</h3>
-                        <h3 class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        <p class="paragraph text-justify ">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.
                             animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
-                            consequatur aperiam incidunt nisi minima molestias sequi totam esse porro rem sapiente
-                            corporis impedit, officia voluptate labore voluptas. Soluta voluptas esse, impedit dolores
-                            necessitatibus </h3>
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            consectetur adipisicing elit.
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            consectetur adipisicing elit.
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            necessitatibus</p>
+                        <!-- <span id="viewMoreDescription" style="display: inline;" onclick="openDescription(description)"
+                            class="text-blue-500"> view
+                            more</span>
+                        <span id="viewLessDescription" style="display:none;" onclick="closeDescription(description)"
+                            class="text-blue-500"> view
+                            less</span> -->
                         <div class="my-1 flex">
-                            <button href="/"
+                            <button
                                 class=" px-4 my-1 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md">
                                 Call
                             </button>
-                            <button href="/"
-                                class="  px-4 my-1 mx-3 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md">
+                            <button
+                                class="  px-4 my-1 mx-3 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md"
+                                type="button" data-modal-toggle="authentication-modal">
                                 Email
                             </button>
-                            <button href="/"
+                            <button
                                 class=" px-4 my-1 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md">
                                 Website
                             </button>
@@ -136,28 +156,109 @@
                 </div>
             </a>
         </ul>
-        <ul class="hover:bg-pink-50 mx-2 lg:mx-0 px-6 py-2 rounded">
-            <a href="businessDetails.html" class="lg:flex items-center justify-between">
-                <div class="lg:flex lg:items-center w-full">
-                    <img class="lg:w-40 lg:h-40 my-4 rounded mr-3 lg:mr-8" src="/img/blog_dress (6).jpg" alt="">
-                    <div>
+        <div class="max-w-2xl my-auto mx-auto">
+            <!-- Main modal -->
+            <div id="authentication-modal" aria-hidden="true"
+                class="hidden overflow-x-hidden overflow-y-auto fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center">
+                <div class="relative w-full max-w-md px-4 h-full md:h-auto">
+                    <!-- Modal content -->
+                    <div class=" rounded-lg shadow relative bg-[#0c1a14]">
+                        <div class="flex justify-end p-2">
+                            <button type="button"
+                                class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
+                                data-modal-toggle="authentication-modal">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <form class="space-y-6 px-6 lg:px-8 pb-4 sm:pb-6 xl:pb-8" action="#">
+                            <h3 class="text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h3>
+                            <div>
+                                <label for="email"
+                                    class="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300">Your
+                                    email</label>
+                                <input type="email" name="email" id="email"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                    placeholder="name@company.com" required="">
+                            </div>
+                            <div>
+                                <label for="password"
+                                    class="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300">Your
+                                    password</label>
+                                <input type="password" name="password" id="password" placeholder="••••••••"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                    required="">
+                            </div>
+                            <div class="flex justify-between">
+                                <div class="flex items-start">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox"
+                                            class="bg-gray-50 border border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                                            required="">
+                                    </div>
+                                    <div class="text-sm ml-3">
+                                        <label for="remember"
+                                            class="font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+                                    </div>
+                                </div>
+                                <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost
+                                    Password?</a>
+                            </div>
+                            <button type="submit"
+                                class="w-full text-white  font-medium rounded-lg text-sm px-5 py-2.5 text-center border border-gray-50">Login
+                                to your account</button>
+                            <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+                                Not registered? <a href="#"
+                                    class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.bundle.js"></script>
+
+        <ul class="hover:bg-pink-50 mx-2 lg:mx-0 px-6 lg:py-2 py-0 rounded">
+            <a class="lg:flex items-center justify-between my-4">
+                <div class="lg:flex w-full">
+                    <div class="mr-3 lg:mr-8 lg:h-40 lg:w-40  rounded-md">
+                        <img class="object-contain lg:h-40 lg:w-40 my-2 rounded-md " src="/img/blog_dress (12).jpg"
+                            alt="">
+                    </div>
+                    <div class="w-full">
                         <h1 class="font-bold text-lg my-0">Lorem, ipsum dolor.</h1>
                         <h3 class="font-semibold">Lorem, ipsum.</h3>
-                        <h3 class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        <p class="text-justify paragraph ">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.
                             animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
-                            consequatur aperiam incidunt nisi minima molestias sequi totam esse porro rem sapiente
-                            corporis impedit, officia voluptate labore voluptas. Soluta voluptas esse, impedit dolores
-                            necessitatibus </h3>
+                            consectetur adipisicing elit.
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            consectetur adipisicing elit.
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                            consectetur adipisicing elit.
+                            animi odit officiis. Aut deleniti ullam cupiditate. Perferendis temporibus, nesciunt
+                        </p>
+                        <!-- <span id="viewMoreDescription" style="display: inline;" onclick="openDescription(description2)"
+                            class="text-blue-500"> view
+                            more</span>
+                        <span id="viewLessDescription" style="display:none;" onclick="closeDescription(description2)"
+                            class="text-blue-500"> view
+                            less</span> -->
                         <div class="my-1 flex">
-                            <button href="/"
+                            <button
                                 class=" px-4 my-1 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md">
                                 Call
                             </button>
-                            <button href="/"
-                                class="  px-4 my-1 mx-3 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md">
+                            <button
+                                class="  px-4 my-1 mx-3 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md"
+                                type="button" data-modal-toggle="authentication-modal">
                                 Email
                             </button>
-                            <button href="/"
+                            <button
                                 class=" px-4 my-1 hover:bg-black hover:text-white  border border-gray-500 items-center justify-center h-8 font-md font-semibold tracking-wide transition rounded-md">
                                 Website
                             </button>
@@ -362,7 +463,54 @@
     <!-- mobile nav menu end -->
 </body>
 
+<script>
 
+    function setupParagraphs() {
+        const paragraphs = document.querySelectorAll('.paragraph');
+        paragraphs.forEach((paragraph) => {
+            const text = paragraph.textContent;
+            const maxChars = 360; // maximum characters to show
+            if (text.length > maxChars) {
+                const truncated = text.slice(0, maxChars) + '...';
+                const truncatedNode = document.createTextNode(truncated);
+                paragraph.textContent = '';
+                paragraph.appendChild(truncatedNode);
+
+                const viewMoreLink = document.createElement('a');
+                viewMoreLink.textContent = 'View more';
+                viewMoreLink.classList.add('text-blue-500');
+                viewMoreLink.classList.add('mx-2');
+                viewMoreLink.href = '#';
+                paragraph.appendChild(viewMoreLink);
+
+                viewMoreLink.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    paragraph.textContent = text;
+
+                    const viewLessLink = document.createElement('a');
+                    viewLessLink.textContent = 'View less';
+                    viewLessLink.classList.add('text-blue-500');
+                    viewLessLink.classList.add('mx-2');
+                    viewLessLink.href = '#';
+                    paragraph.appendChild(viewLessLink);
+
+                    viewLessLink.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        paragraph.textContent = truncated;
+                        paragraph.appendChild(viewMoreLink);
+                        viewLessLink.remove();
+                    });
+                });
+            }
+        });
+    }
+
+
+</script>
+
+<script>
+    window.addEventListener('load', setupParagraphs);
+</script>
 <script>
     let mobileMenu = document.getElementById("mobileMenu");
 
